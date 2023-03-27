@@ -10,7 +10,7 @@ public interface EmployeeRepository {
 
     Employee getEmployeeById(int employeeId);
     
-    Employee addEmployee(Employee employeeId);
+    Employee addEmployee(Employee employee);
     
     Employee updateEmployee(int employeeId, Employee employee);
     
